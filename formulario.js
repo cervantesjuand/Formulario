@@ -1,3 +1,3 @@
 function imprimir (){
-    window.prints();
+    window.print();
 }

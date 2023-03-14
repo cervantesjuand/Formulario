@@ -12,14 +12,14 @@ table {
 }
 .ficha {
     height: 30px;
-    width: 500px;
+    width: 400px;
     border: 1px solid black;
     color: white    ;
     background-color: #39A800;
 
 }
 th, td {
-    height: 20px;
+    height: 30px;
     width: 400px;
     border: 1px solid black;
 }
@@ -35,7 +35,7 @@ textarea:focus {
     outline: none;
 }
 .text-tytel {
-    height: 30px;
+    height: 40px;
     color: white;
     background-color: #39A800;
 }
@@ -56,5 +56,16 @@ input[type="submit"] {
     font-size: 100%;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+.enviar {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;    
+    margin-top: 50px;
+    margin-left: 550px;
+    align-items: center;
+    color: #fff;  
     cursor: pointer;
 }
